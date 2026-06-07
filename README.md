@@ -65,9 +65,7 @@ NBA_Future_PPG_Prediction/
 6. There is significant multicollinearity in the model, such as the with the aforementioned MP and GS, WS and OWS/DWS, and BPM/OBPM and PER. This supports the aforementioned suggestion that a linear model may struggle significantly, while a tree-based model may perform significantly better
 
 ## Tech Stack
-pandas
-matplotlib, seaborn
-scikit-learn
+pandas, matplotlib, seaborn, scikit-learn
 
 # How to run
 1. Install requirements
