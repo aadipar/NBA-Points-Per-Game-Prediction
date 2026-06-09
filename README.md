@@ -40,6 +40,7 @@ All data sourced from https://www.basketball-reference.com/
 
 
 ## Project Structure
+```
 NBA_Future_PPG_Prediction/
 ├── data/
 │   ├── advanced_2021.csv
@@ -55,7 +56,7 @@ NBA_Future_PPG_Prediction/
 │   └── 01_eda.ipynb
 │   └── 02_model_building.ipynb
 └── requirements.txt
-
+```
 ## Key Findings
 1. PTS is very right skewed, which is to be expected(very few players will be scoring lots). This indicates that a linear regression may not be the most accurate model for predictions, and a tree-based model may perform better
 2. MP and GS are the strongest predictors of PTS, but they are also very correlated with each other, meaning that only one of them should be included as a final feature
